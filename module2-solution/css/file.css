@@ -1,1 +1,92 @@
+* {
+	box-sizing: border-box;
+	margin:0
+	padding:0;
+}
 
+body {
+	text-align: left;
+	font-size: 13px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Trebuchet MS;
+}
+
+p {
+  background-color: grey;
+  border:3px solid black;
+  padding: 15px;
+  padding-top: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  color: black;
+}
+
+#a1 {
+	background-color: #ffb3b3;
+	border: 3px solid black;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	width: 100px;
+	padding: 3px;
+	position: relative;
+	top: -33px;
+	right:-18px;
+}
+#a2 {
+	background-color: #cc3300;
+	border: 3px solid black;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	float: right;
+	width: 100px;
+	padding: 3px;
+	position: relative;
+	top: -33px;
+	right:-18px;
+}
+#a3 {
+	background-color: #ffff99;
+	border: 3px solid black;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	width: 100px;
+	padding: 3px;
+	position: relative;
+	top: -33px;
+	right:-18px;
+}
+/*for large devices*/
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+  	background-color: white;
+  	width: 33.33%;
+  }
+}
+
+/*for medium devices*/
+@media (min-width: 768px) and (max-width: 991.5px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    background-color: white;
+    }
+  .col-md-6 {
+  	width: 50%
+  }
+  .col-md-12 {
+  	width: 100%
+  }
+}

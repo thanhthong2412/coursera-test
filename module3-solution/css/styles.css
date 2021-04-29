@@ -1,0 +1,68 @@
+body{
+	font-family: stick;
+	font-size: 10px;
+}
+#header-nav {
+	background-color: lightgrey !important;	
+	border-radius: 0;
+	border: 3px solid black;
+}
+
+#brand-name {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+#chicken {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 10px;
+}
+#beef {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 10px;
+}
+#sushi {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+#menu {
+	background-color: lightgrey;
+	margin-top: 10px;
+
+}
+
+#item {
+	font-size: 15px !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	border: 2px solid black !important;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+p {
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
